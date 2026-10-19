@@ -1,0 +1,39 @@
+1. Supervisor Agent — Understands Intent
+
+Extracts: donation budget ₦3,000, three campaigns, three preferred causes, country Nigeria, equal allocation, and checkout intent.
+
+
+
+2. Discovery Agent — Performs Database Search
+
+Uses search_campaigns to retrieve eligible campaign IDs, images, categories, funding goals, currencies, and locations through authenticated Joomla APIs.
+
+
+
+3. Recommendation Agent — Evaluates Options
+
+Selects three suitable campaigns, explains the recommendations, and ensures the records exist.
+
+
+
+4. Giving Plan Agent — Builds The Plan
+
+Calls a deterministic allocation tool to calculate ₦1,000 per campaign, then prepares an editable plan.
+
+
+
+5. User Approval — LangGraph Pauses
+
+Presents the plan, fees, and amount for review. The workflow waits for the user to confirm.
+
+
+
+6. Checkout Agent — Prepares One Payment
+
+After explicit user action, requests one NGN payment order through the existing Filantrophy backend and opens Paystack.
+
+
+
+7. Payment Confirmation And Impact Agent
+
+Joomla verifies Paystack independently, records the three allocations, and makes the receipts and confirmed donation statuses available to the assistant.
