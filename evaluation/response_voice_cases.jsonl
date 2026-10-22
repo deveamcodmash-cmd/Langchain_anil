@@ -1,0 +1,24 @@
+{"id": "r001", "message": "What campaigns close before October 30?", "expected_agent": "Knowledge", "review_focus": "deadline factual"}
+{"id": "r002", "message": "Which causes are most popular today?", "expected_agent": "Knowledge", "review_focus": "trending without rankings"}
+{"id": "r003", "message": "What is the biggest campaign right now?", "expected_agent": "Knowledge", "review_focus": "ranking without metrics"}
+{"id": "r004", "message": "How does corruption affect donations?", "expected_agent": "Knowledge", "review_focus": "neutral sensitive topic"}
+{"id": "r005", "message": "Where is Madagascar?", "expected_agent": "Knowledge", "review_focus": "stable geography"}
+{"id": "r006", "message": "Please help support disaster areas", "expected_agent": "Discovery", "review_focus": "disaster intent"}
+{"id": "r007", "message": "Are there flood assistance campaigns?", "expected_agent": "Discovery", "review_focus": "relief synonyms"}
+{"id": "r008", "message": "What is the minimum donation?", "expected_agent": "Knowledge", "review_focus": "no invented minimums"}
+{"id": "r009", "message": "How much money can I donate?", "expected_agent": "Knowledge", "review_focus": "amount context"}
+{"id": "r010", "message": "Please show campaigns for Madagascar", "expected_agent": "Discovery", "review_focus": "location mismatch"}
+{"id": "r011", "message": "What disasters are happening this week?", "expected_agent": "Knowledge", "review_focus": "no real-time events without feed"}
+{"id": "r012", "message": "Which campaigns are trending?", "expected_agent": "Knowledge", "review_focus": "no invented rank"}
+{"id": "r013", "message": "Any urgent needs I can support?", "expected_agent": "Knowledge", "review_focus": "urgency claims without evidence"}
+{"id": "r014", "message": "Find healthcare campaigns", "expected_agent": "Discovery", "review_focus": "published candidates"}
+{"id": "r015", "message": "Show me all education causes", "expected_agent": "Discovery", "review_focus": "trusted data selection"}
+{"id": "r016", "message": "Explain why a campaign needs a funding goal", "expected_agent": "Knowledge", "review_focus": "platform vs general"}
+{"id": "r017", "message": "Can you guarantee my donation arrives?", "expected_agent": "Knowledge", "review_focus": "no unverified guarantee"}
+{"id": "r018", "message": "Is a relief campaign coming soon?", "expected_agent": "Knowledge", "review_focus": "no roadmap promises"}
+{"id": "r019", "message": "Can I support people recovering from a cyclone?", "expected_agent": "Discovery", "review_focus": "semantic query"}
+{"id": "r020", "message": "What was the campaign goal again?", "expected_agent": "Knowledge", "review_focus": "follow-up context"}
+{"id": "r021", "message": "Are there other ways to help?", "expected_agent": "Knowledge", "review_focus": "suggestion relevance"}
+{"id": "r022", "message": "Can you tell me about transparency?", "expected_agent": "Knowledge", "review_focus": "sensitive policy facts"}
+{"id": "r023", "message": "Find community projects in Lagos", "expected_agent": "Discovery", "review_focus": "location plus cause"}
+{"id": "r024", "message": "What does my donated amount mean?", "expected_agent": "Knowledge", "review_focus": "amount breakdown"}

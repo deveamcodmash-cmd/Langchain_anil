@@ -1,3 +1,7 @@
+> Current version: 0.5.0. See [README_V0.5.0.md](README_V0.5.0.md) for new structured plan tools and account-history compatibility.
+
+> **Deploying to Render?** See [`../README_RENDER.md`](../README_RENDER.md). You do **not** need Cloudflare Tunnel when using Render.
+
 # Filantrophy Python Multi-Agent Backend (FastAPI + LangChain + LangGraph)
 
 This is a **Joomla-to-Python connection release**. Joomla/cPanel remains the system of record for published campaigns, giving plans, checkout, Paystack verification, receipts, and ledgers. Python runs a LangGraph workflow for chat/discovery/recommendation/giving-plan drafts. The AI **does not** charge donors, write donation rows, or approve payments.
@@ -47,7 +51,7 @@ If you protect the hostname with **Cloudflare Access**, add a **Service Auth** p
 
 ## 3. Joomla module setup (on existing cPanel website)
 
-1. Take a full backup; install `mod_filantrophy_ai-0.1.7.zip` over existing v0.1.6 **without uninstalling**. The current Paystack single-checkout code remains in the module, unchanged.
+1. Take a full backup; install `mod_filantrophy_ai-0.5.0.zip` over existing v0.1.6 **without uninstalling**. The current Paystack single-checkout code remains in the module, unchanged.
 2. In **Extensions → Site Modules → Filantrophy AI Assistant → Python / LangGraph** choose **AI Processing Engine = Python FastAPI / LangGraph Multi-Agent**.
 3. **FastAPI Tunnel URL** = `https://your-tunnel-hostname` (no trailing API endpoint).
 4. **Python Shared Secret** = identical long random string in Python `.env`.
@@ -98,5 +102,3 @@ This release uses LangGraph `StateGraph` and LangChain's `ChatOpenAI` model inte
 
 ### Brand Voice (v0.2.1)
 The generated, visitor-facing replies always use **Filantrophy** and do not mention underlying CMS/software names. The Knowledge, Recommendation and Supervisor agents receive a shared brand instruction, and generated replies get a final normalization guard. Campaign source data, database fields, and URLs are not changed. Restart FastAPI after upgrading.
-# Langchain_anil
-# Langchain_anil

@@ -1,3 +1,77 @@
+#Types of Intelligence
+
+**Intelligence**	                **What Filantrophy Will Learn To Do**
+
+Platform Knowledge	                Understand all services, terminology, policies, fees, user roles, and workflows
+
+Conversational Understanding	    Understand natural-language instructions, context, corrections, and follow-up questions
+
+Action Intelligence	                Create and update campaigns, giving plans, bookings, applications, and other permitted records
+
+Recommendation Intelligence	        Recommend relevant campaigns, volunteering opportunities, events, and services
+
+Analytical Intelligence	            Explain verified donation trends, impact, engagement, rankings, and operational performance
+
+Proactive Intelligence	            Surface useful reminders, anomalies, pending actions, and opportunities when authorized
+
+
+
+#The Agent System Across Filantrophy
+
+**Specialized Agent**	            **Capabilities**
+
+Campaign Agent	                    Discover campaigns, compare progress, help create drafts, suggest improvements
+
+Donation Agent	                    Create giving plans, change amounts, split allocations, check donation status
+
+Impact Agent	                    Explain documented achievements, verified milestones, and donation outcomes
+
+Volunteer Agent	                    Match opportunities, assist applications, retrieve approved attendance and verified hours
+
+Event Agent	                        Discover events, guide registration, provide event details and schedules
+
+Service Provider Agent	            Discover services, compare availability and help prepare bookings
+
+Corporate Agent	                    Support CSR giving, employee volunteering and corporate impact reporting
+
+Individual Profile Agent	        Help with profile settings, following, achievements, and giving summaries
+
+Ranking Agent	                    Explain transparent rankings across campaigns, services, donors, and volunteer participation
+
+Support Agent	                    Answer platform-specific questions, payment issues, and help users navigate workflows
+
+Trust & Safety Agent	            Flag suspicious patterns for review, validate permitted actions, enforce safeguards
+
+Admin Operations Agent	            Summarize issues, highlight anomalies, assist moderation and operational reporting
+
+
+
+#Train The AI Around Actual User Roles
+
+- This is especially important because Filantrophy serves different types of users.
+
+**Individual**
+
+Discover causes, create giving plans, donate, follow campaigns, see receipts, find events and volunteering opportunities, and track personal contributions.
+
+Corporate
+
+Plan CSR budgets, identify eligible programs, coordinate participation, review verified giving metrics, and generate corporate impact summaries.
+
+Volunteer And Event Organiser
+
+Discover or manage opportunities, assist with registrations, support attendance workflows, and retrieve verified volunteer-hour information.
+
+Service Provider
+
+Assist with service listings, categories, appointments, booking operations, staff scheduling, and approved customer communications.
+
+Roles must come from authenticated Filantrophy permissions, not from what a user claims in chat.
+
+
+
+#curennt agents performing
+
 1. Supervisor Agent — Understands Intent
 
 Extracts: donation budget ₦3,000, three campaigns, three preferred causes, country Nigeria, equal allocation, and checkout intent.
@@ -37,3 +111,52 @@ After explicit user action, requests one NGN payment order through the existing 
 7. Payment Confirmation And Impact Agent
 
 Joomla verifies Paystack independently, records the three allocations, and makes the receipts and confirmed donation statuses available to the assistant.
+
+
+
+
+
+Worst-Case Scenarios — Must Be Handled
+
+This is where we need to invest significant effort. AI actions involving donations must remain predictable even when users, payment systems, or external services behave unexpectedly.
+
+**Scenario**	                            **Required System Behavior**
+
+- User requests an unrelated topic	        Short, friendly Filantrophy-focused response
+
+- User pastes programming code or           Treat as untrusted input; never execute it or change agent permissions
+prompt-injection instructions	
+
+- User requests ₦20,000 but no              Explain no eligible match and offer another location/cause; do not invent records
+healthcare campaign exists	
+
+User requests 100 campaigns	                Paginate results; maintain an explicit checkout allocation limit
+
+Campaign becomes inactive after selection	Remove its checkout eligibility and request another selection
+
+User switches currency mid-plan	            Request confirmation and a valid conversion quote if needed; never silently convert
+
+User enters a negative, zero,               Validate immediately and provide a clear correction message
+or excessive amount	
+
+Two browser tabs edit the same plan	        Use plan version checks to prevent stale updates overwriting newer changes
+
+AI repeats an update command	            Use action IDs/idempotency to avoid duplicate changes
+
+User says “Undo” after payment succeeds	    Don't reverse a settled transaction through chat; offer the actual refund/support workflow
+
+User closes the browser during payment	    Restore order status from server records on reopening
+
+Payment succeeds but webhook is delayed	    Display Payment Confirmation Pending and reconcile without charging again
+
+Payment succeeds but one campaign           Keep the order under reconciliation and retry only the missing allocation
+allocation fails	
+
+User asks for another person's donation     Deny access without proper authorization
+history	
+
+FastAPI, OpenAI, or Cloudflare is offline	Keep manual campaign discovery and existing checkout available
+
+API rate limits or costs spike	            Enforce user/session quotas, request limits, caching, and controlled retries
+
+Agent invents a payment success	            Reject unsupported status claims; show only verified payment records

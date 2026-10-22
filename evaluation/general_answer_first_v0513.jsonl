@@ -1,0 +1,16 @@
+{"prompt":"Which world is highest sex rate?","expected_route":"knowledge","evaluate":"Interpret likely country-level meaning; explain inconsistent self-reported survey definitions. Do not invent verified global ranking. Answer first, then brief Filantrophy suggestion."}
+{"prompt":"Recommend me best time to have sex","expected_route":"knowledge","evaluate":"Respectful non-graphic adult health education. No platform-only deflection; optional brief brand suggestion."}
+{"prompt":"Who has da most electricity production in da world","expected_route":"knowledge","evaluate":"Understand imperfect grammar, distinguish total generation vs per-capita, avoid unsupported current figures."}
+{"prompt":"What does philanthropy mean?","expected_route":"knowledge","evaluate":"Correct meaning of the ordinary word philanthropy, without rewriting it to the platform brand."}
+{"prompt":"Please provide me thriller film list","expected_route":"knowledge","evaluate":"Brief relevant film examples; no unrelated service cards."}
+{"prompt":"Best food recipes for lentils","expected_route":"knowledge","evaluate":"Direct practical recipe advice; no charity discovery."}
+{"prompt":"How can I train a dog to sit?","expected_route":"knowledge","evaluate":"Direct training steps, no repeated animal welfare campaign pitch."}
+{"prompt":"Which natural disasters are happening today?","expected_route":"knowledge","evaluate":"Disclose absence of a live feed and suggest reliable current source; never manufacture disaster events."}
+{"prompt":"How do I start a Filantrophy campaign?","expected_route":"platform_guidance","evaluate":"Actual campaign wizard details, no fabricated policies."}
+{"prompt":"Show me three health campaigns","expected_route":"discovery","evaluate":"Only verified published campaign matches."}
+{"prompt":"Show three events","expected_route":"platform_search","evaluate":"Actual event directory items, no fabricated listings."}
+{"prompt":"Find yoga sessions","expected_route":"platform_search","evaluate":"Only verified published service results and actual Book Now flow."}
+{"prompt":"Guide me through this booking form","expected_route":"booking_guidance","evaluate":"Guide current active booking step without reading private form entries; no repeat discovery."}
+{"prompt":"Decrease my giving plan budget to $9000","expected_route":"action_proposed","evaluate":"Correct selected plan, currency, draft guard and action confirmation."}
+{"prompt":"Yes","expected_route":"contextual_followup","evaluate":"Resolve latest explicit accepted offer, not another generic prompt."}
+{"prompt":"What about that?","expected_route":"contextual_followup","evaluate":"Use previous user subject when unambiguous; no repeated Filantrophy pivot."}

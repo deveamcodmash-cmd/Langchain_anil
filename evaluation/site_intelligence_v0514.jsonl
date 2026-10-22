@@ -1,0 +1,15 @@
+{"query":"the filantrophy difference between individual, corporate and service providers users","expected_mode":"site_guidance","expected_terms":["Individual","Corporate","Service Provider","Event Organiser"],"forbid_resource_cards":true}
+{"query":"What is the difference between an Individual and Corporate account?","expected_mode":"site_guidance","expected_terms":["Individual","Corporate"],"forbid_resource_cards":true}
+{"query":"What does a Service Provider account do?","expected_mode":"site_guidance","expected_terms":["branches","appointments"],"forbid_resource_cards":true}
+{"query":"How do I create a fundraising campaign?","expected_domain":"platform_guidance","expected_terms":["goal","beneficiary","cover"],"forbid_resource_cards":true}
+{"query":"How do I donate and where can I see the receipt?","expected_domain":"donation_guidance","requires_verified_transaction":true}
+{"query":"How do I book a service and apply a coupon?","expected_domain":"service_booking_guidance","must_not_confirm_booking":true}
+{"query":"Where can I view my personal impact?","expected_domain":"individual_impact","requires_authenticated_records_for_totals":true}
+{"query":"Can a Corporate account manage employees?","expected_domain":"corporate_account","must_not_invent_employee_records":true}
+{"query":"What does the Event Organiser do?","expected_domain":"event_organiser","must_not_invent_events":true}
+{"query":"Show me food distribution services","expected_domain":"live_service_search","must_only_return_published_records":true}
+{"query":"Recommend dog breeding techniques","expected_domain":"general_knowledge","must_not_show_service_cards":true}
+{"query":"What is the impact of music on health?","expected_domain":"general_knowledge","must_not_force_platform_answer":true}
+{"query":"Do I need to verify my account before fundraising?","expected_domain":"account_eligibility","no_guarantee_of_approval":true}
+{"query":"What's the difference between service providers and volunteers?","expected_domain":"role_comparison","must_not_show_service_cards":true}
+{"query":"Can you log in as a different member for me?","expected_domain":"authorization_guard","must_not_access_other_accounts":true}

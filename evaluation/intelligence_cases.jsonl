@@ -1,0 +1,60 @@
+{"id": "campaign_discovery-01", "message": "I want to donate to disaster areas", "expected_agent": "Discovery", "expected_intent": "campaign_discovery"}
+{"id": "campaign_discovery-02", "message": "find flood relief causes", "expected_agent": "Discovery", "expected_intent": "campaign_discovery"}
+{"id": "campaign_discovery-03", "message": "Are there campaigns to help displaced families?", "expected_agent": "Discovery", "expected_intent": "campaign_discovery"}
+{"id": "campaign_discovery-04", "message": "I wanna support a crisis", "expected_agent": "Discovery", "expected_intent": "campaign_discovery"}
+{"id": "campaign_discovery-05", "message": "Where can I donate for earthquake recovery?", "expected_agent": "Discovery", "expected_intent": "campaign_discovery"}
+{"id": "campaign_discovery-06", "message": "show me emergency relief projects", "expected_agent": "Discovery", "expected_intent": "campaign_discovery"}
+{"id": "campaign_discovery-07", "message": "please list water shortage causes", "expected_agent": "Discovery", "expected_intent": "campaign_discovery"}
+{"id": "campaign_discovery-08", "message": "any charity for families after a storm", "expected_agent": "Discovery", "expected_intent": "campaign_discovery"}
+{"id": "campaign_discovery-09", "message": "find the campaigns helping disaster survivors", "expected_agent": "Discovery", "expected_intent": "campaign_discovery"}
+{"id": "campaign_discovery-10", "message": "I want to help people affected by drought", "expected_agent": "Discovery", "expected_intent": "campaign_discovery"}
+{"id": "campaign_discovery-11", "message": "show 3 disaster relief campaigns", "expected_agent": "Discovery", "expected_intent": "campaign_discovery"}
+{"id": "campaign_discovery-12", "message": "which crisis causes can I give to?", "expected_agent": "Discovery", "expected_intent": "campaign_discovery"}
+{"id": "donation_explanation-01", "message": "how is the donation amount", "expected_agent": "Knowledge", "expected_intent": "donation_explanation"}
+{"id": "donation_explanation-02", "message": "How much should I give?", "expected_agent": "Knowledge", "expected_intent": "donation_explanation"}
+{"id": "donation_explanation-03", "message": "Can I choose my own donation amount?", "expected_agent": "Knowledge", "expected_intent": "donation_explanation"}
+{"id": "donation_explanation-04", "message": "What does amount raised mean?", "expected_agent": "Knowledge", "expected_intent": "donation_explanation"}
+{"id": "donation_explanation-05", "message": "How does a fundraising goal differ from the amount raised?", "expected_agent": "Knowledge", "expected_intent": "donation_explanation"}
+{"id": "donation_explanation-06", "message": "Is there a minimum amount to donate?", "expected_agent": "Knowledge", "expected_intent": "donation_explanation"}
+{"id": "donation_explanation-07", "message": "Explain how donating works", "expected_agent": "Knowledge", "expected_intent": "donation_explanation"}
+{"id": "donation_explanation-08", "message": "What does the total donation amount represent?", "expected_agent": "Knowledge", "expected_intent": "donation_explanation"}
+{"id": "donation_explanation-09", "message": "Can I donate a small amount?", "expected_agent": "Knowledge", "expected_intent": "donation_explanation"}
+{"id": "donation_explanation-10", "message": "How do I decide a contribution amount?", "expected_agent": "Knowledge", "expected_intent": "donation_explanation"}
+{"id": "donation_explanation-11", "message": "How much was donated so far?", "expected_agent": "Knowledge", "expected_intent": "donation_explanation"}
+{"id": "donation_explanation-12", "message": "Does the amount include platform fees?", "expected_agent": "Knowledge", "expected_intent": "donation_explanation"}
+{"id": "current_world_information-01", "message": "what is the current disaster where I can donate", "expected_agent": "Knowledge", "expected_intent": "current_world_information"}
+{"id": "current_world_information-02", "message": "What disaster is happening right now?", "expected_agent": "Knowledge", "expected_intent": "current_world_information"}
+{"id": "current_world_information-03", "message": "Is there a recent earthquake I could help with?", "expected_agent": "Knowledge", "expected_intent": "current_world_information"}
+{"id": "current_world_information-04", "message": "Any new emergencies this week?", "expected_agent": "Knowledge", "expected_intent": "current_world_information"}
+{"id": "current_world_information-05", "message": "What is the latest humanitarian crisis?", "expected_agent": "Knowledge", "expected_intent": "current_world_information"}
+{"id": "current_world_information-06", "message": "Are there floods happening today?", "expected_agent": "Knowledge", "expected_intent": "current_world_information"}
+{"id": "current_world_information-07", "message": "Which regions are currently affected by disasters?", "expected_agent": "Knowledge", "expected_intent": "current_world_information"}
+{"id": "current_world_information-08", "message": "Tell me the current disaster news", "expected_agent": "Knowledge", "expected_intent": "current_world_information"}
+{"id": "current_world_information-09", "message": "Where is relief urgently needed after this morning’s storm?", "expected_agent": "Knowledge", "expected_intent": "current_world_information"}
+{"id": "current_world_information-10", "message": "What ongoing global emergencies need help?", "expected_agent": "Knowledge", "expected_intent": "current_world_information"}
+{"id": "current_world_information-11", "message": "Are any new crises reported today?", "expected_agent": "Knowledge", "expected_intent": "current_world_information"}
+{"id": "current_world_information-12", "message": "Which disaster happened last night?", "expected_agent": "Knowledge", "expected_intent": "current_world_information"}
+{"id": "popularity_comparison-01", "message": "what current hot donation", "expected_agent": "Knowledge", "expected_intent": "popularity_comparison"}
+{"id": "popularity_comparison-02", "message": "What donations are trending right now?", "expected_agent": "Knowledge", "expected_intent": "popularity_comparison"}
+{"id": "popularity_comparison-03", "message": "Which cause is most popular?", "expected_agent": "Knowledge", "expected_intent": "popularity_comparison"}
+{"id": "popularity_comparison-04", "message": "Show the most supported campaigns", "expected_agent": "Knowledge", "expected_intent": "popularity_comparison"}
+{"id": "popularity_comparison-05", "message": "Which donations are getting attention?", "expected_agent": "Knowledge", "expected_intent": "popularity_comparison"}
+{"id": "popularity_comparison-06", "message": "What is hot in charity giving?", "expected_agent": "Knowledge", "expected_intent": "popularity_comparison"}
+{"id": "popularity_comparison-07", "message": "Which campaign is receiving the most support?", "expected_agent": "Knowledge", "expected_intent": "popularity_comparison"}
+{"id": "popularity_comparison-08", "message": "What are people donating to?", "expected_agent": "Knowledge", "expected_intent": "popularity_comparison"}
+{"id": "popularity_comparison-09", "message": "Which causes had the most recent donations?", "expected_agent": "Knowledge", "expected_intent": "popularity_comparison"}
+{"id": "popularity_comparison-10", "message": "Give me the top campaigns ranked by donor count", "expected_agent": "Knowledge", "expected_intent": "popularity_comparison"}
+{"id": "popularity_comparison-11", "message": "What is the most urgent campaign?", "expected_agent": "Knowledge", "expected_intent": "popularity_comparison"}
+{"id": "popularity_comparison-12", "message": "Which charity is popular this week?", "expected_agent": "Knowledge", "expected_intent": "popularity_comparison"}
+{"id": "platform_explanation-01", "message": "What can Filantrophy help me do?", "expected_agent": "Knowledge", "expected_intent": "platform_explanation"}
+{"id": "platform_explanation-02", "message": "Tell me how giving plans work", "expected_agent": "Knowledge", "expected_intent": "platform_explanation"}
+{"id": "platform_explanation-03", "message": "What is a donor profile?", "expected_agent": "Knowledge", "expected_intent": "platform_explanation"}
+{"id": "platform_explanation-04", "message": "How can I review my past giving?", "expected_agent": "Knowledge", "expected_intent": "platform_explanation"}
+{"id": "platform_explanation-05", "message": "Can you help with volunteering too?", "expected_agent": "Knowledge", "expected_intent": "platform_explanation"}
+{"id": "platform_explanation-06", "message": "Where can I manage an account?", "expected_agent": "Knowledge", "expected_intent": "platform_explanation"}
+{"id": "platform_explanation-07", "message": "What happens before payment?", "expected_agent": "Knowledge", "expected_intent": "platform_explanation"}
+{"id": "platform_explanation-08", "message": "How do I find service providers?", "expected_agent": "Knowledge", "expected_intent": "platform_explanation"}
+{"id": "platform_explanation-09", "message": "Is there a way to review a draft plan?", "expected_agent": "Knowledge", "expected_intent": "platform_explanation"}
+{"id": "platform_explanation-10", "message": "Can you explain the campaign page?", "expected_agent": "Knowledge", "expected_intent": "platform_explanation"}
+{"id": "platform_explanation-11", "message": "How does that work?", "expected_agent": "Knowledge", "expected_intent": "platform_explanation", "history": [{"role": "user", "content": "How do giving plans work?"}, {"role": "assistant", "content": "I can explain plans."}]}
+{"id": "platform_explanation-12", "message": "What happens after I confirm?", "expected_agent": "Knowledge", "expected_intent": "platform_explanation", "history": [{"role": "user", "content": "How do I review a giving plan?"}, {"role": "assistant", "content": "You review the draft."}]}

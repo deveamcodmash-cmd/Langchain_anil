@@ -1,0 +1,30 @@
+{"id":"scope-01","utterance":"what is the best time to sleep","expected_scope":"off_topic"}
+{"id":"scope-02","utterance":"who is Joker","expected_scope":"off_topic"}
+{"id":"scope-03","utterance":"write python code to scrape a page","expected_scope":"off_topic"}
+{"id":"scope-04","utterance":"tell me a joke","expected_scope":"off_topic"}
+{"id":"scope-05","utterance":"recipe for pasta","expected_scope":"off_topic"}
+{"id":"scope-06","utterance":"who is Taylor Swift","expected_scope":"off_topic"}
+{"id":"scope-07","utterance":"tell me football scores","expected_scope":"off_topic"}
+{"id":"scope-08","utterance":"stock market forecast","expected_scope":"off_topic"}
+{"id":"scope-09","utterance":"Find education campaigns in Lagos","expected_scope":"in_scope"}
+{"id":"scope-10","utterance":"Show healthcare campaigns","expected_scope":"in_scope"}
+{"id":"scope-11","utterance":"Create a giving plan for ₦3000","expected_scope":"in_scope"}
+{"id":"scope-12","utterance":"Update the donation amount to 10000","expected_scope":"in_scope","expected_action":"update_plan_budget"}
+{"id":"scope-13","utterance":"Change my donation budget to ₦10,000","expected_scope":"in_scope","expected_action":"update_plan_budget"}
+{"id":"scope-14","utterance":"Allocate ₦7,000 to the first campaign","expected_scope":"in_scope","expected_action":"update_plan_allocation"}
+{"id":"scope-15","utterance":"Remove the second campaign","expected_scope":"in_scope","expected_action":"remove_plan_item"}
+{"id":"scope-16","utterance":"Undo the last change","expected_scope":"uncertain","expected_action":"undo_plan_change"}
+{"id":"scope-17","utterance":"Remove all the existing plan","expected_scope":"in_scope","expected_action":"clear_plan"}
+{"id":"scope-18","utterance":"Find volunteer opportunities","expected_scope":"in_scope"}
+{"id":"scope-19","utterance":"Show my event registrations","expected_scope":"in_scope"}
+{"id":"scope-20","utterance":"Book a service appointment","expected_scope":"in_scope","expected_unavailable":true}
+{"id":"scope-21","utterance":"Register me for the event","expected_scope":"in_scope","expected_unavailable":true}
+{"id":"scope-22","utterance":"Apply for this volunteer opportunity","expected_scope":"in_scope","expected_unavailable":true}
+{"id":"scope-23","utterance":"Publish the campaign","expected_scope":"in_scope","expected_unavailable":true}
+{"id":"scope-24","utterance":"Show my corporate giving","expected_scope":"in_scope"}
+{"id":"scope-25","utterance":"Check my donation receipt","expected_scope":"in_scope"}
+{"id":"scope-26","utterance":"Can I get a refund?","expected_scope":"in_scope"}
+{"id":"scope-27","utterance":"How do I find service providers?","expected_scope":"in_scope"}
+{"id":"scope-28","utterance":"I want to track impact","expected_scope":"in_scope"}
+{"id":"scope-29","utterance":"My payment is pending","expected_scope":"in_scope"}
+{"id":"scope-30","utterance":"How many volunteer hours do I have?","expected_scope":"in_scope"}
